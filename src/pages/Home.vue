@@ -12,6 +12,10 @@
 </template>
 <script setup>
 import Applayout from '../components/AppLayout.vue';
+import {useRootStore} from '../stores/root.js'
+
+const rootStore = useRootStore()
+rootStore.getIngredients
 </script>
 <style lang="sass" scoped>
 @import '../assets/styles/main'
