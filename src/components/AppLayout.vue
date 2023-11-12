@@ -40,7 +40,7 @@ const props = defineProps({
   top: 32px
   right: 40px
   background-color: $accent
-  color: $text
+  color: $text !important
   border: none
   font-family: 'Raleway'
   font-size: 16px
